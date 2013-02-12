@@ -138,6 +138,15 @@
         <item>0</item>
         <item>0</item>
     </integer-array>
+    
+    <!-- Control the behavior when the user long presses the home button.
+            0 - Nothing
+            1 - Recent apps dialog
+            2 - Recent apps view in SystemUI
+         This needs to match the constants in
+         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
+    -->
+    <integer name="config_longPressOnHomeBehavior">2</integer>
 
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">29</integer>
